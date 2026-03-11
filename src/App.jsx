@@ -1,0 +1,68 @@
+import { useState } from 'react';
+import SmoothScroll from './components/SmoothScroll';
+import Loader from './components/Loader';
+import Navbar from './components/Navbar';
+import CustomCursor from './components/CustomCursor';
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Skills from './sections/Skills';
+import Projects from './sections/Projects';
+import Achievements from './sections/Achievements';
+import Education from './sections/Education';
+import Contact from './sections/Contact';
+import Footer from './sections/Footer';
+
+function Marquee() {
+  const items = ['React', 'Three.js', 'GSAP', 'Node.js', 'UI/UX', 'Frontend', 'Creative', 'Developer'];
+  const doubled = [...items, ...items];
+
+  return (
+    <div className="marquee-section">
+      <div className="marquee-track">
+        {doubled.map((item, i) => (
+          <span key={i}>
+            <span className="marquee-item">{item}</span>
+            <span className="marquee-dot">✦</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default function App() {
+  const [loading, setLoading] = useState(true);
+
+  return (
+    <>
+      {loading && <Loader onComplete={() => setLoading(false)} />}
+      <div className="noise-overlay" />
+      <CustomCursor />
+
+      <div className="mesh-grid" />
+      <div className="ambient-orb orb-1" />
+      <div className="ambient-orb orb-2" />
+      <div className="ambient-orb orb-3" />
+
+      <Navbar />
+      <SmoothScroll>
+        <main>
+          <Hero />
+          <Marquee />
+          <About />
+          <div className="section-divider" />
+          <Skills />
+          <div className="section-divider" />
+          <Projects />
+          <div className="section-divider" />
+          <Achievements />
+          <div className="section-divider" />
+          <Education />
+          <div className="section-divider" />
+          <Contact />
+          <Footer />
+        </main>
+      </SmoothScroll>
+    </>
+  );
+}
