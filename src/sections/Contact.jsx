@@ -5,7 +5,7 @@ const contactLinks = [
   { icon: '📧', label: 'Email', value: 'rishumahatha4@gmail.com', href: 'mailto:rishumahatha4@gmail.com' },
   { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/rishumahatha', href: 'https://linkedin.com/in/rishumahatha' },
   { icon: '🐙', label: 'GitHub', value: 'github.com/rishumahatha', href: 'https://github.com/rishumahatha' },
-  { icon: '📱', label: 'Phone', value: '+91 XXXXX XXXXX', href: 'tel:+91XXXXXXXXXX' },
+  { icon: '📱', label: 'Phone', value: '+91 62028 53608', href: 'tel:+916202853608' },
 ];
 
 export default function Contact() {
