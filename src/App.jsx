@@ -1,6 +1,4 @@
-import { useState } from 'react';
 import SmoothScroll from './components/SmoothScroll';
-import Loader from './components/Loader';
 import Navbar from './components/Navbar';
 import CustomCursor from './components/CustomCursor';
 import Hero from './sections/Hero';
@@ -31,11 +29,8 @@ function Marquee() {
 }
 
 export default function App() {
-  const [loading, setLoading] = useState(true);
-
   return (
     <>
-      {loading && <Loader onComplete={() => setLoading(false)} />}
       <div className="noise-overlay" />
       <CustomCursor />
 
