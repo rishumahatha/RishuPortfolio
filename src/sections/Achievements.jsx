@@ -29,7 +29,7 @@ export default function Achievements() {
   const gridRef = useRef(null);
   const [loading, setLoading] = useState(true);
   const [stats, setStats] = useState({
-    leetcode: 90, // Updated to 90+
+    leetcode: 100, // Updated to 100+
     gfg: 70,      // Updated to 70+
     hackerrank: 5
   });
