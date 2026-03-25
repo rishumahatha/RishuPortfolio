@@ -3,7 +3,7 @@ import { useScrollReveal, useStaggerReveal } from '../hooks/useGsapScrollTrigger
 const stats = [
   { icon: '🎓', label: 'University', value: 'Lovely Professional University (LPU)' },
   { icon: '📚', label: 'Year', value: '3rd Year B.Tech' },
-  { icon: '💻', label: 'Focus', value: 'Full-Stack Dev' },
+  { icon: '💻', label: 'Focus', value: 'Full-Stack Developer' },
   { icon: '🎨', label: 'Passion', value: 'UI/UX Design' },
 ];
 

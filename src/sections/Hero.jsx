@@ -41,7 +41,7 @@ export default function Hero() {
           <span className="line gradient-text">Mahatha</span>
         </h1>
         <p className="hero-role">
-          <span className="accent">Frontend Developer</span> · UI/UX Enthusiast · Code Wizard in Training
+          <span className="accent">Full-Stack Developer</span> · UI/UX Enthusiast · Code Wizard in Training
         </p>
         <p className="hero-tagline">&ldquo;Turning caffeine into code, one bug at a time.&rdquo;</p>
         <div className="hero-buttons">
