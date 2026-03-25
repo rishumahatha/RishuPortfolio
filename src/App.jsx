@@ -7,6 +7,8 @@ import Skills from './sections/Skills';
 import Projects from './sections/Projects';
 import Achievements from './sections/Achievements';
 import Education from './sections/Education';
+import SummerTraining from './sections/SummerTraining';
+import Certificates from './sections/Certificates';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
 
@@ -34,11 +36,6 @@ export default function App() {
       <div className="noise-overlay" />
       <CustomCursor />
 
-      <div className="mesh-grid" />
-      <div className="ambient-orb orb-1" />
-      <div className="ambient-orb orb-2" />
-      <div className="ambient-orb orb-3" />
-
       <Navbar />
       <SmoothScroll>
         <main>
@@ -50,9 +47,13 @@ export default function App() {
           <div className="section-divider" />
           <Projects />
           <div className="section-divider" />
+          <SummerTraining />
+          <div className="section-divider" />
           <Achievements />
           <div className="section-divider" />
           <Education />
+          <div className="section-divider" />
+          <Certificates />
           <div className="section-divider" />
           <Contact />
           <Footer />

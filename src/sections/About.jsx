@@ -23,21 +23,20 @@ export default function About() {
       <div className="about-layout">
         <div ref={leftRef}>
           <div className="about-label">Who I Am</div>
-          <h3 className="about-big-text">
-            I build <span className="dim">digital experiences that feel</span> alive <span className="dim">and</span> meaningful.
+          <h3 className="about-big-text" style={{ textAlign: 'left' }}>
+            I craft <span className="dim">digital experiences that actually</span> connect <span className="dim">with</span> people.
           </h3>
           <div className="about-body">
             <p>
-              I&apos;m a <strong>3rd year Computer Science</strong> student at
-              <strong> Lovely Professional University</strong>, obsessed with the intersection
-              of design and engineering.
+              Hey, I&apos;m Rishu – a <strong>3rd year Computer Science</strong> student at
+              <strong> Lovely Professional University</strong>, who fell in love with the magic where design meets code.
             </p>
             <p>
-              I specialize in <strong>Frontend Development</strong> and <strong>UI/UX Design</strong> —
-              turning complex ideas into pixel-perfect, performant web applications.
-              I&apos;m a <strong>self-learner</strong> who thrives on solving hard problems
-              and pushing the boundaries of what&apos;s possible on the web.
+              I specialize in <strong>Frontend Development</strong> and <strong>UI/UX Design</strong> — 
+              because I believe great products start with great user experiences. I&apos;m a <strong>self-taught tinkerer</strong> who loves 
+              solving tricky problems and experimenting with new tech. When I&apos;m not coding, you&apos;ll find me sketching UI ideas or reading about the latest in web dev.
             </p>
+            <p style={{ fontStyle: 'italic', color: 'var(--text-dim)', marginTop: '20px' }}>P.S. Still learning every day – that's the fun part!</p>
           </div>
         </div>
 

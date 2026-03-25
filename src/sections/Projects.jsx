@@ -12,7 +12,7 @@ const projects = [
       'Fully responsive, mobile-first design',
     ],
     tags: ['React', 'Node.js', 'Express', 'MongoDB'],
-    github: '#',
+    github: 'https://github.com/rishumahatha/expense-tracker-advanced',
   },
   {
     num: '02',
@@ -25,7 +25,7 @@ const projects = [
       'Discussion forums and resource sharing',
     ],
     tags: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
-    github: '#',
+    github: 'https://github.com/rishumahatha/greenconnect',
   },
 ];
 
@@ -34,7 +34,7 @@ export default function Projects() {
   const listRef = useStaggerReveal({ childSelector: '.stagger-item', stagger: 0.2 });
 
   return (
-    <section className="section-wrap" id="projects">
+    <section className="section-wrap" id="projects" style={{ padding: '120px 48px 160px' }}>
       <div className="section-header" ref={headerRef}>
         <span className="section-num">03</span>
         <span className="section-line" />
@@ -43,7 +43,7 @@ export default function Projects() {
 
       <div className="projects-list" ref={listRef}>
         {projects.map((p, i) => (
-          <div className="project-card stagger-item" key={i}>
+          <div className={`project-card stagger-item ${i === 1 ? 'project-card-alt' : ''}`} key={i}>
             <div>
               <div className="project-num">{p.num}</div>
               <div className="project-tags">
@@ -58,7 +58,16 @@ export default function Projects() {
               <ul className="project-features">
                 {p.features.map((f, fi) => <li key={fi}>{f}</li>)}
               </ul>
-              <a href={p.github} className="project-link" target="_blank" rel="noopener noreferrer">
+              <a 
+                href={p.github} 
+                className="project-link" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  window.open(p.github, '_blank');
+                }}
+              >
                 View on GitHub →
               </a>
             </div>

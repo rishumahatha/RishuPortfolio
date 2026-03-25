@@ -5,8 +5,10 @@ const navItems = [
   { id: 'about', label: 'About' },
   { id: 'skills', label: 'Skills' },
   { id: 'projects', label: 'Projects' },
+  { id: 'summer-training', label: 'Training' },
   { id: 'achievements', label: 'Achievements' },
   { id: 'education', label: 'Education' },
+  { id: 'certificates', label: 'Certs' },
   { id: 'contact', label: 'Contact' },
 ];
 
