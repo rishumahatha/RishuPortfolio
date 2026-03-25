@@ -3,7 +3,7 @@ import { useScrollReveal, useStaggerReveal } from '../hooks/useGsapScrollTrigger
 const stats = [
   { icon: '🎓', label: 'University', value: 'Lovely Professional University (LPU)' },
   { icon: '📚', label: 'Year', value: '3rd Year B.Tech' },
-  { icon: '💻', label: 'Focus', value: 'Frontend Dev' },
+  { icon: '💻', label: 'Focus', value: 'Full-Stack Dev' },
   { icon: '🎨', label: 'Passion', value: 'UI/UX Design' },
 ];
 
@@ -32,7 +32,7 @@ export default function About() {
               <strong> Lovely Professional University</strong>, who fell in love with the magic where design meets code.
             </p>
             <p>
-              I specialize in <strong>Frontend Development</strong> and <strong>UI/UX Design</strong> — 
+              I specialize in <strong>Full-Stack Development</strong> and <strong>UI/UX Design</strong> — 
               because I believe great products start with great user experiences. I&apos;m a <strong>self-taught tinkerer</strong> who loves 
               solving tricky problems and experimenting with new tech. When I&apos;m not coding, you&apos;ll find me sketching UI ideas or reading about the latest in web dev.
             </p>
