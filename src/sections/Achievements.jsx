@@ -99,7 +99,7 @@ export default function Achievements() {
       <div className="section-header" ref={headerRef}>
         <span className="section-num">04</span>
         <span className="section-line" />
-        <h2 className="section-header-title"><span>Stats</span></h2>
+        <h2 className="section-header-title"><span>Achievements</span></h2>
       </div>
 
       <div className="achievements-grid" ref={gridRef}>

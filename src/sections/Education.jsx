@@ -1,7 +1,7 @@
 import { useScrollReveal, useStaggerReveal } from '../hooks/useGsapScrollTrigger';
 
 const timeline = [
-  { date: '2023 — Present', title: 'B.Tech in Computer Science & Engineering', subtitle: 'Lovely Professional University (LPU)' },
+  { date: '2023 — Present', title: 'B.Tech in Computer Science & Engineering', subtitle: 'Lovely Professional University (LPU) - CGPA: 7.97' },
   { date: '2021 — 2023', title: 'Intermediate (12th)', subtitle: 'Score: 79.6%' },
   { date: '2021', title: 'Matriculation (10th)', subtitle: 'Score: 70.2%' },
 ];

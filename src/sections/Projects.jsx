@@ -38,7 +38,7 @@ export default function Projects() {
       <div className="section-header" ref={headerRef}>
         <span className="section-num">03</span>
         <span className="section-line" />
-        <h2 className="section-header-title"><span>Work</span></h2>
+        <h2 className="section-header-title"><span>Projects</span></h2>
       </div>
 
       <div className="projects-list" ref={listRef}>

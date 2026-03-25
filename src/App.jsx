@@ -11,6 +11,11 @@ import SummerTraining from './sections/SummerTraining';
 import Certificates from './sections/Certificates';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import { useEffect } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Marquee() {
   const items = ['React', 'Three.js', 'GSAP', 'Node.js', 'UI/UX', 'Frontend', 'Creative', 'Developer'];
